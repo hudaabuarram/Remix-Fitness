@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background-val: #F8FAFC;
+  --card-val: #FFFFFF;
+  --text-val: #0F172A;
+  --primary-val: #8B5CF6;
+  --accent-val: #A855F7;
+  --button-val: #7C3AED;
+  --border-val: #E2E8F0;
+  
+  --slate-50-val: #f8fafc;
+  --slate-100-val: #f1f5f9;
+  --slate-200-val: #e2e8f0;
+  --slate-300-val: #cbd5e1;
+  --slate-400-val: #94a3b8;
+  --slate-500-val: #64748b;
+  --slate-600-val: #475569;
+  --slate-700-val: #334155;
+  --slate-800-val: #1e293b;
+  --slate-900-val: #0f172a;
+  --slate-950-val: #020617;
+}
+
+.dark {
+  --background-val: #0B0618;
+  --card-val: #17102B;
+  --text-val: #FFFFFF;
+  --primary-val: #8B5CF6;
+  --accent-val: #A855F7;
+  --button-val: #7C3AED;
+  --border-val: #231C3D;
+  
+  --slate-50-val: #20173B;
+  --slate-100-val: #FFFFFF;
+  --slate-200-val: #E2DDF5;
+  --slate-300-val: #C2B9DF;
+  --slate-400-val: #9F93CD;
+  --slate-500-val: #8273B2;
+  --slate-600-val: #4C3C78;
+  --slate-700-val: #231C3D;
+  --slate-800-val: #17102B;
+  --slate-900-val: #0B0618;
+  --slate-950-val: #05030D;
+}
+
+@theme {
+  --color-primary: var(--primary-val);
+  --color-primary-hover: #7C3AED;
+  --color-accent: var(--accent-val);
+  --color-accent-hover: #B55FE6;
+  --color-secondary: var(--slate-500-val);
+  --color-background: var(--background-val);
+  --color-text: var(--text-val);
+
+  --color-slate-50: var(--slate-50-val);
+  --color-slate-100: var(--slate-100-val);
+  --color-slate-200: var(--slate-200-val);
+  --color-slate-300: var(--slate-300-val);
+  --color-slate-400: var(--slate-400-val);
+  --color-slate-500: var(--slate-500-val);
+  --color-slate-600: var(--slate-600-val);
+  --color-slate-700: var(--slate-700-val);
+  --color-slate-800: var(--slate-800-val);
+  --color-slate-900: var(--slate-900-val);
+  --color-slate-950: var(--slate-950-val);
+
+  --color-indigo-50: #f5f3ff;
+  --color-indigo-100: #ede9fe;
+  --color-indigo-200: #ddd6fe;
+  --color-indigo-300: #c084fc;
+  --color-indigo-400: var(--accent-val);
+  --color-indigo-500: var(--primary-val);
+  --color-indigo-600: var(--button-val);
+  --color-indigo-700: #6d28d9;
+  --color-indigo-800: #5b21b6;
+  --color-indigo-900: #4c1d95;
+  --color-indigo-950: #2e1065;
+}

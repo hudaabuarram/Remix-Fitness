@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Premium Gym & Fitness Center Website",
+  "description": "A gorgeous, high-end bilingual (Arabic/English) public-facing gym website with class schedules, trainer profiles, interactive BMI & Macro calculators, custom workout builders, membership subscriptions, and a virtual booking system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
