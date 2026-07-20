@@ -639,7 +639,19 @@ export default function App() {
 
           {/* Copywrite */}
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-[11px] font-medium text-slate-500">
-            <span>{t.copyright}</span>
+            <span>
+              © 2026 All rights reserved by{' '}
+              <a 
+                href="https://oxa-code-website.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:text-blue-400 hover:underline font-bold transition-colors text-sm"
+                id="oxa-code-link"
+              >
+                oxa code
+              </a>
+              . Made with love and care.
+            </span>
             <div className="flex gap-4">
               <a href="#" className="hover:text-slate-400">{isRtl ? 'الشروط والأحكام' : 'Terms & Conditions'}</a>
               <a href="#" className="hover:text-slate-400">{isRtl ? 'سياسة الخصوصية' : 'Privacy Policy'}</a>
